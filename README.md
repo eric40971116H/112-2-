@@ -10,6 +10,6 @@
 ## 課程筆記
 ***
 ## 作業連結
-### [練習]()
+### [練習](https://github.com/eric40971116H/112-2-LAT-Repo/blob/9f5a0489a3ec4f6ad23af302e635a612e2322e73/LAT-main/Week2/FirstTest.ipynb)
 ***
 ## 專題
