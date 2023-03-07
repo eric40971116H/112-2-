@@ -8,8 +8,7 @@
 ***
 
 ## 課程筆記
-***
-###[上課範例](https://github.com/pecu/LAT.git)
+### [上課範例](https://github.com/pecu/LAT.git)
 ## 作業連結
 ### [練習1](https://github.com/eric40971116H/112-2-LAT-Repo/blob/9f5a0489a3ec4f6ad23af302e635a612e2322e73/LAT-main/Week2/FirstTest.ipynb)
 ### [作業1](https://github.com/eric40971116H/112-2-LAT-Repo/blob/b062a2d4dec6e62c484b133c781fee35200835bf/%E4%BD%9C%E6%A5%AD1/HW1.ipynb)
