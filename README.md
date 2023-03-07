@@ -9,6 +9,7 @@
 
 ## 課程筆記
 ***
+***[上課範例](https://github.com/pecu/LAT.git)
 ## 作業連結
 ### [練習1](https://github.com/eric40971116H/112-2-LAT-Repo/blob/9f5a0489a3ec4f6ad23af302e635a612e2322e73/LAT-main/Week2/FirstTest.ipynb)
 ### [作業1]()
