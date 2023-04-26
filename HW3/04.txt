@@ -1,0 +1,22 @@
+The basic construction, appearance, and characteristics of the transistor were introduced in Chapter 3. The dc biasing of the device was then examined in detail in Chapter 4. We now begin to examine the small-signal ac response of the BJT amplifier by
+reviewing the models most frequently used to represent the transistor in the sinusoidal
+ac domain.
+One of our first concerns in the sinusoidal ac analysis of transistor networks
+is the magnitude of the input signal. It will determine whether small-signal or largesignal techniques should be applied. There is no set dividing line between the two,
+but the application––and the magnitude of the variables of interest relative to the
+scales of the device characteristics––will usually make it quite clear which method is
+appropriate. The small-signal technique is introduced in this chapter, and large-signal
+applications are examined in Chapter 16.
+There are two models commonly used in the small-signal ac analysis of transistor networks: the re model and the hybrid equivalent model. This chapter not only introduces both models but defines the role of each and the relationship between the
+two.
+7.2 AMPLIFICATION IN THE AC DOMAIN
+It was demonstrated in Chapter 3 that the transistor can be employed as an amplifying device. That is, the output sinusoidal signal is greater than the input signal or,
+stated another way, the output ac power is greater than the input ac power. The question then arises as to how the ac power output can be greater than the input ac power?
+Conservation of energy dictates that over time the total power output, Po, of a system
+cannot be greater than its power input, Pi, and that the efficiency defined by   Po /Pi
+cannot be greater than 1. The factor missing from the discussion above that permits
+an ac power output greater than the input ac power is the applied dc power. It is a
+contributor to the total output power even though part of it is dissipated by the device and resistive elements. In other words, there is an “exchange” of dc power to the
+ac domain that permits establishing a higher output ac power. In fact, a conversion
+efficiency is defined by   Po(ac)/Pi(dc), where Po(ac) is the ac power to the load and
+Pi(dc) is the dc power supplied.

@@ -1,0 +1,48 @@
+Electronics comprises the physics, engineering, technology and applications that deal with the emission,
+flow and control of electrons in vacuum and matter.This distinguishes it from classical electrical
+engineering as it uses active devices to control electron flow by amplification and rectification rather than
+just using passive effects such as resistance, capacitance and inductance.
+INTRODUCTION TO SIGNAL
+Electric signals (in electronics) – different voltages and currents in the electric network called electric “circuit” or
+“device”, which can be further described as the process of changes a certain physical quantity or state of a physical
+object over certain period of time. They are used for the purpose of visualization, registration and transmission
+of messages (information). Signal can be a carrier of different information e.g. electric, magnetic and acoustic
+signals and contains the information parameter e.g. amplitude, frequency or pulse width. In electronics, the most
+important signals are the changes in electric charge, current, voltage and electromagnetic field. They are used to
+analyze the behavior of electronic circuits or to measure the changing electrical values.
+What is Time Domain Analysis?
+A time domain analysis is an analysis of physical signals, mathematical functions, or time series of economic or
+environmental data, in reference to time. Also, in the time domain, the signal or function's value is understood for
+all real numbers at various separate instances in the case of discrete-time or the case of continuous-time.
+Furthermore, an oscilloscope is a tool commonly used to see real-world signals in the time domain.
+Moreover, a time-domain graph can show how a signal changes with time, whereas a frequency-domain graph
+will show how much of the signal lies within each given frequency band over a range of frequencies.
+In general, when an analysis uses a unit of time, such as seconds or one of its multiples (minutes or hours) as a
+unit of measurement, then it is in the time domain. However, whenever an analysis concerns the units like Hertz,
+then it is in the frequency domain.
+Frequency Domain
+In physics, electronics, control systems engineering, and statistics, the frequency domain refers to the analysis
+of mathematical functions or signals with respect to frequency, rather than time. Put simply, a time-domain graph
+shows how a signal changes over time, whereas a frequency-domain graph shows how much of the signal lies
+within each given frequency band over a range of frequencies. A frequency-domain representation can also
+include information on the phase shift that must be applied to each sinusoid in order to be able to recombine the
+frequency components to recover the original time signal.
+A given function or signal can be converted between the time and frequency domains with a pair of
+mathematical operators called transforms. An example is the Fourier transform, which converts a time function
+into a sum or integral of sine waves of different frequencies, each of which represents a frequency component.
+The "spectrum" of frequency components is the frequency-domain representation of the signal. The inverse
+Fourier transform converts the frequency-domain function back to the time function. A spectrum analyzer is a
+tool commonly used to visualize electronic signals in the frequency domain.
+How is Time Domain Analysis Different from Frequency Domain?
+Frequency domain is an analysis of signals or mathematical functions, in reference to frequency, instead of time.
+As stated earlier, a time-domain graph displays the changes in a signal over a span of time, and frequency domain
+displays how much of the signal exists within a given frequency band concerning a range of frequencies. Also, a
+5
+frequency-domain representation can include information on the phase shift that must be applied to each sinusoid
+to be able to recombine the frequency components to recover the original time signal.
+Furthermore, you can convert a designated signal or function between the frequency and time domains with a pair
+of operators called transforms. Moreover, a perfect example of a transform is the Fourier transform. Which
+converts a time function into an integral of sine-waves of various frequencies or sum, each of which symbolizes
+a frequency component. The so-called spectrum of frequency components is the frequency-domain depiction of
+the signal. However, as the name implies, the inverse Fourier transform converts the frequency-domain function
+back to the time function

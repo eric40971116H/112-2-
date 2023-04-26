@@ -1,0 +1,28 @@
+2.4 SERIES DIODE CONFIGURATIONS
+WITH DC INPUTS
+In this section the approximate model is utilized to investigate a number of series
+diode configurations with dc inputs. The content will establish a foundation in diode
+analysis that will carry over into the sections and chapters to follow. The procedure
+described can, in fact, be applied to networks with any number of diodes in a variety
+of configurations.
+For each configuration the state of each diode must first be determined. Which
+diodes are “on” and which are “off”? Once determined, the appropriate equivalent as
+defined in Section 2.3 can be substituted and the remaining parameters of the network determined.
+In general, a diode is in the “on” state if the current established by the
+applied sources is such that its direction matches that of the arrow in the
+diode symbol, and VD   0.7 V for silicon and VD   0.3 V for germanium.
+For each configuration, mentally replace the diodes with resistive elements and
+note the resulting current direction as established by the applied voltages (“pressure”).
+If the resulting direction is a “match” with the arrow in the diode symbol, conduction through the diode will occur and the device is in the “on” state. The description
+above is, of course, contingent on the supply having a voltage greater than the “turnon” voltage (VT) of each diode.
+If a diode is in the “on” state, one can either place a 0.7-V drop across the
+element, or the network can be redrawn with the VT equivalent circuit as defined in
+Table 2.1. In time the preference will probably simply be to include the 0.7-V drop across
+each “on” diode and draw a line through each diode in the “off” or open state. Initially, however, the substitution method will be utilized to ensure that the proper voltage and current levels are determined.
+The series circuit of Fig. 2.10 described in some detail in Section 2.2 will be used
+to demonstrate the approach described in the paragraphs above. The state of the diode
+is first determined by mentally replacing the diode with a resistive element as shown
+in Fig. 2.11. The resulting direction of I is a match with the arrow in the diode symbol, and since E  VT the diode is in the “on” state. The network is then redrawn as
+shown in Fig. 2.12 with the appropriate equivalent model for the forward-biased silicon diode. Note for future reference that the polarity of VD is the same as would result if in fact the diode were a resistive element. The resulting voltage and current
+levels are the following:
+V

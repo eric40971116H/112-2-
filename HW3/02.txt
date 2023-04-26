@@ -1,0 +1,16 @@
+2.3 DIODE APPROXIMATIONS
+In Section 2.2 we revealed that the results obtained using the approximate piecewiselinear equivalent model were quite close, if not equal, to the response obtained using
+the full characteristics. In fact, if one considers all the variations possible due to tolerances, temperature, and so on, one could certainly consider one solution to be “as
+accurate” as the other. Since the use of the approximate model normally results in a
+reduced expenditure of time and effort to obtain the desired results, it is the approach
+that will be employed in this book unless otherwise specified. Recall the following:
+The primary purpose of this book is to develop a general knowledge of the behavior, capabilities, and possible areas of application of a device in a manner
+that will minimize the need for extensive mathematical developments.
+The complete piecewise-linear equivalent model introduced in Chapter 1 was not
+employed in the load-line analysis because rav is typically much less than the other
+series elements of the network. If rav should be close in magnitude to the other series
+elements of the network, the complete equivalent model can be applied in much the
+same manner as described in Section 2.2.
+In preparation for the analysis to follow, Table 2.1 was developed to review the
+important characteristics, models, and conditions of application for the approximate
+and ideal diode models. Although the silicon diode is used almost exclusively due 

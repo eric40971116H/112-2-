@@ -1,0 +1,21 @@
+The construction, characteristics, and models of semiconductor diodes were introduced in Chapter 1. The primary goal of this chapter is to develop a working knowledge of the diode in a variety of configurations using models appropriate for the area
+of application. By chapter’s end, the fundamental behavior pattern of diodes in dc and
+ac networks should be clearly understood. The concepts learned in this chapter will
+have significant carryover in the chapters to follow. For instance, diodes are frequently
+employed in the description of the basic construction of transistors and in the analysis of transistor networks in the dc and ac domains.
+The content of this chapter will reveal an interesting and very positive side of the
+study of a field such as electronic devices and systems—once the basic behavior of
+a device is understood, its function and response in an infinite variety of configurations can be determined. The range of applications is endless, yet the characteristics
+and models remain the same. The analysis will proceed from one that employs the
+actual diode characteristic to one that utilizes the approximate models almost exclusively. It is important that the role and response of various elements of an electronic
+system be understood without continually having to resort to lengthy mathematical
+procedures. This is usually accomplished through the approximation process, which
+can develop into an art itself. Although the results obtained using the actual characteristics may be slightly different from those obtained using a series of approximations, keep in mind that the characteristics obtained from a specification sheet may
+in themselves be slightly different from the device in actual use. In other words, the
+characteristics of a 1N4001 semiconductor diode may vary from one element to the
+next in the same lot. The variation may be slight, but it will often be sufficient to validate the approximations employed in the analysis. Also consider the other elements
+of the network: Is the resistor labeled 100  exactly 100 ? Is the applied voltage
+exactly 10 V or perhaps 10.08 V? All these tolerances contribute to the general belief that a response determined through an appropriate set of approximations can often be “as accurate” as one that employs the full characteristics. In this book the emphasis is toward developing a working knowledge of a device through the use of
+appropriate approximations, thereby avoiding an unnecessary level of mathematical
+complexity. Sufficient detail will normally be provided, however, to permit a detailed
+mathematical analysis if desired.
