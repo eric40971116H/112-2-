@@ -1,6 +1,0 @@
-{
-    "ENDPOINT":"https://text-sentiment-bot1.cognitiveservices.azure.com/",
-    "TEXT_ANALYTICS_API_KEY":"5b48b31131174d68ab20520b4fd382f3",
-    "CHANNEL_ACCESS_TOKEN":"9u3Zzd5e6eMFhemZvVMr4vcEUbz1ZGIv7rLfBE4IFm9yOGf6IWyloiGag1WoquuCUFiWz0pd/omsEvRKzwdsxiyUdPbsgaLcxp5dBFUpUQF6b1AFyqo4mqu7Ymf700kojARb1OjOkBX+0KTxHN63UQdB04t89/1O/w1cDnyilFU=",
-    "CHANNEL_SECRET":"93ee9c0bb7c6601038d97c085a74c687"
-}
