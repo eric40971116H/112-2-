@@ -15,5 +15,8 @@
 ### [作業2](https://github.com/eric40971116H/112-2-LAT-Repo/blob/b263146f288ffe5a89d85518d62e5f87fe9136e2/HW2/HW2.ipynb)
 
 ### [作業3](https://github.com/eric40971116H/112-2-LAT-Repo/blob/d252c20e06cb7e2b28b73140d3791aed47ec11bf/HW3/HW3.ipynb)
+
+### [作業4](https://github.com/eric40971116H/112-2-LAT-Repo/tree/6257b83367125f58169f388f335772ebee6f5905/HW4)
 ***
 ## 專題
+### [文字轉語音]()
