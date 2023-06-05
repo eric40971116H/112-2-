@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div class="jumbotron">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文字轉語音</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">文字轉語音</h1>
+        <button class="btn btn-success" onclick="make_audio();">轉換</button>
+        <p>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1">速度</span>
+                <input type="text" class="form-control" id="rate" placeholder="速度...." value="100" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1">音量</span>
+                <input type="text" class="form-control" id="volumn" placeholder="音量" value="1" aria-describedby="basic-addon1" />
+            </div>
+        </p>
+        <textarea id="text" class="form-control" style="height: 150px;"></textarea>
+        <hr>
+        <div class="preview">
+            <h3>播放</h3>
+            <audio controls id="audio"></audio>
+            <!-- 下载 链接指向audio_url -->
+            <p><a class="btn btn-primary" onclick="window.location.href = audio_url; return false;">下載</a></p>
+        </div>
+    </div>
+    <script>
+        audio_url = "";
+        // 请求音频id
+        make_audio = function(){
+            $(".preview").hide();
+            $.ajax({
+                type: 'POST',
+                url: '/make',
+                data: {
+                    text: $("#text").val(),
+                    rate: $("#rate").val(),
+                    volumn: $("#volumn").val(),
+                },
+                async: false,
+                success: function(data){
+                	// 生成url
+                    audio_url = "/audio/" + data.id + ".mp3";
+                    // 生成音频标签
+                    $("#audio").html(
+                        "<source type='audio/mpeg' src='" + audio_url +"' />"
+                    );
+                    // 重新加载标签
+                    document.getElementById("audio").load();
+                },
+                error: function(){
+                    alert("生成失败！");
+                }
+            });
+            $(".preview").show();
+        };
+    </script>
+    </div>
+</body>
+</html>
+
