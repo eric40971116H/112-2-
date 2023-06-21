@@ -17,6 +17,8 @@
 ### [作業3](https://github.com/eric40971116H/112-2-LAT-Repo/blob/d252c20e06cb7e2b28b73140d3791aed47ec11bf/HW3/HW3.ipynb)
 
 ### [作業4](https://github.com/eric40971116H/112-2-LAT-Repo/tree/6257b83367125f58169f388f335772ebee6f5905/HW4)
+
+### [作業5](https://github.com/eric40971116H/112-2-LAT-Repo/tree/0f7037f752920949d772d52593b32058fea09b07/HW5/01.image-recognition)
 ***
 ## 專題
 ### [文字轉語音](https://github.com/eric40971116H/112-2-LAT-Repo/tree/86ea91dc0e62b670622d0b4434812a5a0955c232/voice3)
